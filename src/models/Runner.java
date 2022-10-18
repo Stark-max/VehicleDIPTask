@@ -79,9 +79,9 @@ public class Runner {
                 System.out.println("Введите посадочное место(100): ");
                 int j = sc.nextInt();
                 if (j < 101)
-                    car.setSeat(j);
+                    train.setSeat(j);
                 else
-                    car.setSeat(random.nextInt(100+1));
+                    train.setSeat(random.nextInt(100+1));
                 train.setSeat(sc.nextInt());
                 System.out.println("Введите скорость поезда: ");
                 train.setSpeed(sc.nextInt());
@@ -93,9 +93,9 @@ public class Runner {
                 System.out.println("Введите посадочное место(60): ");
                 int f = sc.nextInt();
                 if (f < 61)
-                    car.setSeat(f);
+                    airplane.setSeat(f);
                 else
-                    car.setSeat(random.nextInt(60+1));
+                    airplane.setSeat(random.nextInt(60+1));
                 airplane.setSeat(sc.nextInt());
                 System.out.println("Введите скорость самолета: ");
                 airplane.setSpeed(sc.nextInt());
