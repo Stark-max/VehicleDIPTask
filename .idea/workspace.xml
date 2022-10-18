@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec47e4da-e1bf-4453-a040-6038c0fa0b75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VehicleDIPTask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/AirplaneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/TrainService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/impl/AirplaneServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/impl/CarServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/impl/TrainServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/impl/AirplaneServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/impl/AirplaneServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/impl/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/impl/CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/impl/TrainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/impl/TrainServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +41,29 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/IdeaProjects/Lab2",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="services" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="VehicleDIPTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,7 +73,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665931210549</updated>
-      <workItem from="1665931212845" duration="3036000" />
+      <workItem from="1665931212845" duration="3343000" />
+      <workItem from="1666069102858" duration="2882000" />
     </task>
     <servers />
   </component>

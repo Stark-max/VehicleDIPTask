@@ -10,7 +10,7 @@ public class TrainServiceImpl implements TrainService {
 
     @Override
     public void seatPlace(Integer seat) {
-        System.out.println("Ваше посадочное место " + seat + " забронировано. Спасибо что выбираете нас!");
+        System.out.println("Ваше посадочное место " + seat + ". Спасибо что выбираете нас!");
     }
 
     @Override
