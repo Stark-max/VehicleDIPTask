@@ -1,9 +1,14 @@
 package services;
 
+import models.Train;
+
+import java.util.ArrayList;
+
 public interface TrainService {
-    void groundRide(Integer speed);
 
-    void seatPlace(Integer seat);
+    void displayTrain(ArrayList<Train> trainArrayList);
 
-    void name(String vehicleNumber);
+    Train reserveTrain(ArrayList<Train> trainArrayList);
+
+    void displayReservationTrain(Train train);
 }

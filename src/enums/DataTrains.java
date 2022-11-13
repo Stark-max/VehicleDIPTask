@@ -1,16 +1,15 @@
-package models;
+package enums;
 
-public abstract class Vehicle {
-    private String number;
-    private Integer seat;
-    private Integer speed;
-    private Integer weight;
-    private String color;
+public enum DataTrains {
+    POEZD("478",150,250,1000,"Green"),
+    TRAINS("857",100,360,700,"Silver");
+    String number;
+    Integer seat;
+    Integer speed;
+    Integer weight;
+    String color;
 
-    public Vehicle() {
-    }
-
-    public Vehicle(String number, Integer seat, Integer speed, Integer weight, String color) {
+    DataTrains(String number, Integer seat, Integer speed, Integer weight, String color) {
         this.number = number;
         this.seat = seat;
         this.speed = speed;

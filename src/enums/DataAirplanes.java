@@ -1,16 +1,16 @@
-package models;
+package enums;
 
-public abstract class Vehicle {
-    private String number;
-    private Integer seat;
-    private Integer speed;
-    private Integer weight;
-    private String color;
+public enum DataAirplanes {
+    SAMOLET("AirDubai",250,450,500,"White-Red"),
+    AIRPLANE("AirMoscow",200,400,550,"Red");
 
-    public Vehicle() {
-    }
+    String number;
+    Integer seat;
+    Integer speed;
+    Integer weight;
+    String color;
 
-    public Vehicle(String number, Integer seat, Integer speed, Integer weight, String color) {
+    DataAirplanes(String number, Integer seat, Integer speed, Integer weight, String color) {
         this.number = number;
         this.seat = seat;
         this.speed = speed;

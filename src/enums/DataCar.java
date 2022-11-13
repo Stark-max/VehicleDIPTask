@@ -1,16 +1,16 @@
-package models;
+package enums;
 
-public abstract class Vehicle {
-    private String number;
-    private Integer seat;
-    private Integer speed;
-    private Integer weight;
-    private String color;
+public enum DataCar {
+    MASHINA("1457",4,260,150,"Red"),
+    AVTO("5474",6,360,250,"White");
 
-    public Vehicle() {
-    }
+    String number;
+    Integer seat;
+    Integer speed;
+    Integer weight;
+    String color;
 
-    public Vehicle(String number, Integer seat, Integer speed, Integer weight, String color) {
+    DataCar(String number, Integer seat, Integer speed, Integer weight, String color) {
         this.number = number;
         this.seat = seat;
         this.speed = speed;

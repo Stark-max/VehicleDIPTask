@@ -1,9 +1,14 @@
 package services;
 
+import models.Airplane;
+
+import java.util.ArrayList;
+
 public interface AirplaneService {
-    void airRide(Integer speed);
 
-    void seatPlace(Integer seat);
+    void displayAirplane(ArrayList<Airplane> airplaneArrayList);
 
-    void name(String vehicleNumber);
+    Airplane reserveAirplane(ArrayList<Airplane> airplaneArrayList);
+
+    void displayReservationAirplane(Airplane airplane);
 }

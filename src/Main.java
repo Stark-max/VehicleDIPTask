@@ -1,12 +1,9 @@
-import models.Airplane;
-import models.Car;
-import models.Runner;
-import models.Train;
+import controllers.Menu;
+import models.*;
 
 public class Main {
     public static void main(String[] args) {
-        Runner runner = new Runner();
-        runner.console();
-
+        Menu menu = new Menu();
+        menu.console();
     }
 }

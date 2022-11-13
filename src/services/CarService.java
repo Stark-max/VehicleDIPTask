@@ -1,11 +1,17 @@
 package services;
 
+import models.Airplane;
+import models.Car;
+import models.Train;
+
+import java.util.ArrayList;
+
 public interface CarService {
-    void groundRide(Integer speed);
 
-    void seatPlace(Integer seat);
 
-    void newWheel();
+    void displayCar(ArrayList<Car> carArrayList);
 
-    void name(String vehicleNumber);
+    Car reserveCar(ArrayList<Car> carArrayList);
+
+    void displayReservationCar(Car car);
 }
